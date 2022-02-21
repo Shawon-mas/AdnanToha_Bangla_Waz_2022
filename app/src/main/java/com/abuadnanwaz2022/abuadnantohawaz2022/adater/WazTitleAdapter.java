@@ -1,4 +1,4 @@
-package com.azhariwaz2022.azharibanglawaz2022.adater;
+package com.abuadnanwaz2022.abuadnantohawaz2022.adater;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,9 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.azhariwaz2022.azharibanglawaz2022.R;
-import com.azhariwaz2022.azharibanglawaz2022.model.ClickItem;
-import com.azhariwaz2022.azharibanglawaz2022.model.WazTitle;
+import com.abuadnanwaz2022.abuadnantohawaz2022.R;
+import com.abuadnanwaz2022.abuadnantohawaz2022.model.ClickItem;
+import com.abuadnanwaz2022.abuadnantohawaz2022.model.WazTitle;
 
 import java.util.List;
 

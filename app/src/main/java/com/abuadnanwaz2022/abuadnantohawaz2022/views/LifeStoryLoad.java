@@ -1,4 +1,4 @@
-package com.azhariwaz2022.azharibanglawaz2022.views;
+package com.abuadnanwaz2022.abuadnantohawaz2022.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.azhariwaz2022.azharibanglawaz2022.R;
+import com.abuadnanwaz2022.abuadnantohawaz2022.R;
 
 public class LifeStoryLoad extends AppCompatActivity {
     WebView webView_load;

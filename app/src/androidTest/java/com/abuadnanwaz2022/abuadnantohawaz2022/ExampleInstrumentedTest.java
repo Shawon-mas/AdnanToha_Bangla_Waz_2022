@@ -1,4 +1,4 @@
-package com.azhariwaz2022.azharibanglawaz2022;
+package com.abuadnanwaz2022.abuadnantohawaz2022;
 
 import android.content.Context;
 

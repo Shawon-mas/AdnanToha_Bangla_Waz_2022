@@ -33,6 +33,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
                 <LinearLayout
+                    android:padding="10dp"
                     android:id="@+id/linearlayout"
                     android:gravity="center"
                     android:layout_gravity="center_vertical|center_horizontal"
@@ -72,7 +73,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
                 <LinearLayout
-
+                    android:padding="10dp"
                     android:gravity="center"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical"
@@ -118,7 +119,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
                 <LinearLayout
-
+                    android:padding="10dp"
                     android:gravity="center"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical"
@@ -156,7 +157,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
                 <LinearLayout
-
+                    android:padding="10dp"
                     android:gravity="center"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:orientation="vertical"

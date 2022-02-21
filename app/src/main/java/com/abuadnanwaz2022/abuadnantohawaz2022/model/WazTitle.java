@@ -1,10 +1,13 @@
-package com.azhariwaz2022.azharibanglawaz2022.model;
+package com.abuadnanwaz2022.abuadnantohawaz2022.model;
 
-public class IslamLifeTitle {
+public class WazTitle {
     private String title;
     private String videoId;
-    public IslamLifeTitle(){}
-    public IslamLifeTitle(String title, String videoId) {
+    public WazTitle()
+    {
+
+    }
+    public WazTitle(String title, String videoId) {
         this.title = title;
         this.videoId = videoId;
     }

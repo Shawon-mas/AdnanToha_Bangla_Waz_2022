@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "889183226044",
-    "project_id": "azhari-bangla-waz-2022",
-    "storage_bucket": "azhari-bangla-waz-2022.appspot.com"
+    "project_number": "183523243069",
+    "project_id": "abu-toha-bangla-waz-2022",
+    "storage_bucket": "abu-toha-bangla-waz-2022.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:889183226044:android:c88aa41d450bfddacea8b9",
+        "mobilesdk_app_id": "1:183523243069:android:44ea908b34828b4a816654",
         "android_client_info": {
-          "package_name": "com.azhariwaz2022.azharibanglawaz2022"
+          "package_name": "com.abuadnanwaz2022.abuadnantohawaz2022"
         }
       },
       "oauth_client": [
         {
-          "client_id": "889183226044-qgbm1jsp46mol63189cstk12462irko3.apps.googleusercontent.com",
+          "client_id": "183523243069-kcumi3lvubfirbcrq7j00lsrn520m6pt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCWE8LImgxvax0EUr_dyRzN3uY_UasrCqU"
+          "current_key": "AIzaSyCp80VpgcxlFxQukDNI3FYnDQu0k8tNGIE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "889183226044-qgbm1jsp46mol63189cstk12462irko3.apps.googleusercontent.com",
+              "client_id": "183523243069-kcumi3lvubfirbcrq7j00lsrn520m6pt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

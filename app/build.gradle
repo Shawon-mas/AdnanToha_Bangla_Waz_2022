@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
+
 }
 
 android {
@@ -8,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.azhariwaz2022.azharibanglawaz2022"
+        applicationId "com.abuadnanwaz2022.abuadnantohawaz2022"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
@@ -40,7 +41,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'com.github.GrenderG:Toasty:1.5.2'
-
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 
 

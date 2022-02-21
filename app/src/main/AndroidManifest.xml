@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.azhariwaz2022.azharibanglawaz2022">
+    package="com.abuadnanwaz2022.abuadnantohawaz2022">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AzhariBanglaWaz2022">
-        <activity android:name=".views.IslamLife"></activity>
-        <activity android:name=".views.LifeActivity" />
-        <activity android:name=".views.WazActivity" />
-        <activity android:name=".views.LifeStoryLoad" />
-        <activity android:name=".views.MainActivity">
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.IslamLife"></activity>
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.LifeActivity" />
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.WazActivity" />
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.LifeStoryLoad" />
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.azhariwaz2022.azharibanglawaz2022.views;
+package com.abuadnanwaz2022.abuadnantohawaz2022.views;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,10 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.azhariwaz2022.azharibanglawaz2022.R;
-import com.azhariwaz2022.azharibanglawaz2022.adater.WazTitleAdapter;
-import com.azhariwaz2022.azharibanglawaz2022.model.ClickItem;
-import com.azhariwaz2022.azharibanglawaz2022.model.WazTitle;
+import com.abuadnanwaz2022.abuadnantohawaz2022.R;
+import com.abuadnanwaz2022.abuadnantohawaz2022.adater.WazTitleAdapter;
+import com.abuadnanwaz2022.abuadnantohawaz2022.model.ClickItem;
+import com.abuadnanwaz2022.abuadnantohawaz2022.model.WazTitle;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;

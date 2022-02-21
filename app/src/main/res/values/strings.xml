@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Azhari Bangla Waz 2022</string>
+    <string name="app_name">Abu Adnan Toha Bangla Waz 2022</string>
 
-    <string name="life_Story">মিজানুর রহমান আজহারির জীবন কাহিনী</string>
-    <string name="Waz">মিজানুর রহমান আজহারির নতুন ওয়াজ</string>
-    <string name="life">মিজানুর রহমান আজহারির জীবন পরিচালনা নিয়ে বক্তব্য</string>
-    <string name="islam">মিজানুর রহমান আজহারির নবী এবং রাসুলদের দিয়ে আলোচনা</string>
+    <string name="life_Story">আবু ত্ব-হা মুহাম্মদ আদনান জীবন কাহিনী</string>
+    <string name="Waz">আবু ত্ব-হা মুহাম্মদ আদনান নতুন ওয়াজ</string>
+    <string name="life">আবু ত্ব-হা মুহাম্মদ আদনান জীবন পরিচালনা নিয়ে বক্তব্য</string>
+    <string name="islam">আবু ত্ব-হা মুহাম্মদ আদনান শেষ জামানা নিয়ে আলোচনা</string>
 
-    <string name="life_web_link">https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BF%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B0_%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8_%E0%A6%86%E0%A6%9C%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%80</string>
+    <string name="life_web_link">https://cutt.ly/jPU7AfH</string>
 
 
 </resources>
