@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".views.MainActivity">
+
 <ImageView
     android:id="@+id/cover_home"
     android:scaleType="fitXY"
@@ -45,6 +46,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"/>
                     <TextView
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center_vertical|center_horizontal"
                         android:textStyle="bold"
                         android:layout_marginLeft="5dp"
@@ -61,7 +63,6 @@
                         android:textSize="15dp" />
 
                 </LinearLayout>
-
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/home_card_2"
@@ -85,6 +86,7 @@
                         android:layout_height="70dp"/>
 
                     <TextView
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center_vertical|center_horizontal"
                         android:textStyle="bold"
                         android:layout_marginLeft="5dp"
@@ -98,9 +100,7 @@
                         android:textColor="#000000"
                         android:textSize="15dp"
                         android:text="@string/Waz"/>
-
                 </LinearLayout>
-
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
         <LinearLayout
@@ -130,6 +130,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"/>
                     <TextView
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center_vertical|center_horizontal"
                         android:textStyle="bold"
                         android:layout_marginLeft="5dp"
@@ -167,8 +168,8 @@
                         android:src="@drawable/pic"
                         android:layout_width="70dp"
                         android:layout_height="70dp"/>
-
                     <TextView
+                        android:fontFamily="@font/kalpurush"
                         android:gravity="center_vertical|center_horizontal"
                         android:textStyle="bold"
                         android:layout_marginLeft="5dp"
@@ -184,13 +185,8 @@
                         android:text="@string/islam"/>
 
                 </LinearLayout>
-
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
-
-
     </RelativeLayout>
-
-
 
 </RelativeLayout>
