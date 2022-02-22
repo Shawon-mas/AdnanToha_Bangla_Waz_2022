@@ -10,14 +10,14 @@
     app:cardCornerRadius="5dp"
     app:cardUseCompatPadding="true">
     <RelativeLayout
-        android:background="#BCF6C376"
+        android:background="#FD022032"
         android:padding="10dp"
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
-            android:tint="#000"
+            android:tint="#FFFFFF"
             android:layout_centerVertical="true"
             android:id="@+id/play_video"
             android:src="@drawable/click"
@@ -26,15 +26,16 @@
 
 
         <TextView
-            android:layout_marginLeft="7dp"
-            android:layout_toRightOf="@id/play_video"
-            android:textSize="17sp"
-            android:textColor="#000000"
-            android:textColorHint="#000"
-            android:hint="Title"
             android:id="@+id/vtitle_id"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/play_video"
+            android:fontFamily="@font/roboto_mono"
+            android:hint="Title"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="17sp" />
 
     </RelativeLayout>
 </com.google.android.material.card.MaterialCardView>
