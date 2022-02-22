@@ -15,7 +15,7 @@
         <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.LifeActivity" />
         <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.WazActivity" />
         <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.LifeStoryLoad" />
-        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.MainActivity">
+        <activity android:name="com.abuadnanwaz2022.abuadnantohawaz2022.views.MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
