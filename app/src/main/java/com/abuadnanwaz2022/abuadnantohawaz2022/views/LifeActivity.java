@@ -13,6 +13,11 @@ import com.abuadnanwaz2022.abuadnantohawaz2022.R;
 import com.abuadnanwaz2022.abuadnantohawaz2022.adater.LifeTitleAdater;
 import com.abuadnanwaz2022.abuadnantohawaz2022.model.ClickItem;
 import com.abuadnanwaz2022.abuadnantohawaz2022.model.LifeTitle;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;
@@ -38,14 +43,26 @@ public class LifeActivity extends AppCompatActivity implements ClickItem {
     private String currentVideoId;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CollectionReference mRef=db.collection("LifeList");
+    AdView adView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_life);
         initViews();
         recyclerviewImplement();
+        adsShow();
     }
+    private void adsShow() {
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
 
+        adView = findViewById(R.id.adView_life);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+    }
     private void recyclerviewImplement() {
         recyclerView.setHasFixedSize(true);
 
